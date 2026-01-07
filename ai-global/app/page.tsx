@@ -1,4 +1,6 @@
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
+
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
           Building scalable systems for modern applications.
         </p>
       </section>
+      <Services />
+
     </main>
   );
 }
