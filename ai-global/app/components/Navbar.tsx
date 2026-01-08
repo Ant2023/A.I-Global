@@ -24,7 +24,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const onKeyDown = (e) => {
+    const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") setOpen(false);
     };
     window.addEventListener("keydown", onKeyDown);
@@ -38,7 +38,7 @@ export default function Navbar() {
     };
   }, [open]);
 
-  const handleNav = (hashHref) => (e) => {
+  const handleNav = (hashHref: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const id = hashHref.replace("#", "");
     setOpen(false);
