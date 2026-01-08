@@ -13,23 +13,22 @@ export default function Services() {
         {/* Service 1 */}
         <div className="group rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-[#2B6CB0]/40">
           <p className="text-xs font-semibold uppercase tracking-wide text-[#2B6CB0]">
-            Delivery
+            APPLICATIONS
           </p>
 
           <h3 className="mt-2 text-lg font-semibold text-slate-900">
-            DevOps & Platform Engineering
+            Custom Application Development
           </h3>
 
           <p className="mt-3 leading-relaxed text-slate-600">
-            CI/CD pipelines, Infrastructure as Code, and environment
-            standardization to improve delivery speed and reliability.
+            We design and build custom web applications and internal tools tailored to your business workflows, users, and long-term goals.
           </p>
         </div>
 
         {/* Service 2 */}
         <div className="group rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-[#2B6CB0]/40">
           <p className="text-xs font-semibold uppercase tracking-wide text-[#2B6CB0]">
-            Infrastructure
+            CLOUD
           </p>
 
           <h3 className="mt-2 text-lg font-semibold text-slate-900">
@@ -37,24 +36,22 @@ export default function Services() {
           </h3>
 
           <p className="mt-3 leading-relaxed text-slate-600">
-            Cloud architecture, migrations, and cost optimization built
-            for scalability, resilience, and long-term growth.
+            We help businesses adopt and modernize cloud-based systems to improve flexibility, scalability, and long-term efficiency.
           </p>
         </div>
 
         {/* Service 3 */}
         <div className="group rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-[#2B6CB0]/40">
           <p className="text-xs font-semibold uppercase tracking-wide text-[#2B6CB0]">
-            Operations
+            AI SOLUTIONS
           </p>
 
           <h3 className="mt-2 text-lg font-semibold text-slate-900">
-            Reliability, Security & Operations
+            AI-Powered Business Solutions
           </h3>
 
           <p className="mt-3 leading-relaxed text-slate-600">
-            Monitoring, alerting, access controls, and operational
-            practices to reduce downtime and strengthen posture.
+            We implement practical AI solutions that enhance decision-making, automate routine tasks, and support smarter business processes.
           </p>
         </div>
       </div>

@@ -24,11 +24,12 @@ export default function Section({
     <section id={id} className={`border-t border-slate-200 ${bg}`}>
       <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
         <header className="max-w-3xl">
-          {eyebrow ? (
-            <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
-              {eyebrow}
-            </p>
-          ) : null}
+          {eyebrow && (
+  <p className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-700">
+    {eyebrow}
+  </p>
+)}
+
 
           <h2 className="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
             {title}

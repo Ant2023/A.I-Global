@@ -22,15 +22,15 @@ export default function Home() {
             {/* LEFT */}
             <div>
               <p className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-700">
-                DevOps • Cloud • Reliability
+                Technology Solutions
               </p>
 
               <h1 className="mt-5 text-4xl font-semibold tracking-tight sm:text-5xl">
-                A.I Global Business Services
+                Technology solutions for modern businesses.
               </h1>
 
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-600">
-                Building scalable systems for modern applications.
+                AI Global Business Services delivers custom applications, cloud solutions, and applied AI to help organizations operate, adapt, and grow
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -39,7 +39,7 @@ export default function Home() {
                   href="#contact"
                   className="inline-flex items-center justify-center rounded-md bg-[#1E6BB8] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#165A9A] focus:outline-none focus:ring-2 focus:ring-[#1E6BB8]/40 focus:ring-offset-2"
                 >
-                  Contact
+                  Contact our team
                 </a>
 
                 {/* Secondary button */}
@@ -49,28 +49,6 @@ export default function Home() {
                 >
                   View Services
                 </a>
-              </div>
-
-              {/* credibility row */}
-              <div className="mt-10 grid max-w-xl grid-cols-3 gap-4">
-                <div className="rounded-xl border border-slate-200 bg-white p-4">
-                  <p className="text-xs font-medium text-slate-500">Focus</p>
-                  <p className="mt-1 text-sm font-semibold text-slate-900">
-                    DevOps
-                  </p>
-                </div>
-                <div className="rounded-xl border border-slate-200 bg-white p-4">
-                  <p className="text-xs font-medium text-slate-500">Approach</p>
-                  <p className="mt-1 text-sm font-semibold text-slate-900">
-                    Hands-on
-                  </p>
-                </div>
-                <div className="rounded-xl border border-slate-200 bg-white p-4">
-                  <p className="text-xs font-medium text-slate-500">Outcome</p>
-                  <p className="mt-1 text-sm font-semibold text-slate-900">
-                    Reliable
-                  </p>
-                </div>
               </div>
             </div>
 
@@ -82,21 +60,21 @@ export default function Home() {
                 </p>
 
                 <h3 className="mt-3 text-xl font-semibold text-slate-900">
-                  Stable infrastructure. Faster delivery.
+                  Technology solutions that work.
                 </h3>
 
                 <ul className="mt-5 space-y-3 text-sm text-slate-600">
                   <li className="flex gap-3">
                     <span className="mt-1 h-2.5 w-2.5 rounded-full bg-[#1E6BB8]" />
-                    CI/CD pipelines and release automation
+                    Custom applications built for scale
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-1 h-2.5 w-2.5 rounded-full bg-[#1E6BB8]" />
-                    Cloud architecture and cost optimization
+                     Cloud solutions that enable growth
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-1 h-2.5 w-2.5 rounded-full bg-[#1E6BB8]" />
-                    Monitoring, reliability, and security practices
+                     Applied AI for smarter operations
                   </li>
                 </ul>
 
