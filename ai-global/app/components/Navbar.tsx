@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { href: "#contact", label: "Contact" },
 ];
 
-function scrollToId(id) {
+function scrollToId(id: string) {
   const el = document.getElementById(id);
   if (!el) return;
 
